@@ -25,21 +25,37 @@ div {
 	flex-direction: column;
 	padding: 40px;
 	align-items: flex-start;
-	justify-content: space-evenly;
+	justify-content: center;
 	flex-wrap: wrap;
 	border-radius: 10px;
+	height: 600px;
 }
 
 
 .Flex-Parent-One div {
 	background: peachpuff;
 	border: 4px solid brown;
-	flex: 1 0 0;
+	flex: 1;
 	border-radius: 10px;
 }
 
 .Flex-Parent-Two div{
 	border: 4px solid brown;
-	flex: 1 0 0;
+	flex: 1;
+	border-radius: 10px;
+	height: 200px;
+	
+}
+
+/*
+#containerOne {
+	border: 4px solid brown;
+	flex: 1;
 	border-radius: 10px;
 }
+
+#containerTwo {
+	border: 4px solid brown;
+	flex: 1;
+	border-radius: 10px;
+} */
